@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-configuration PUBLIC 
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <mapping class="archive.system.entity.Citizen" />
+    <mapping class="archive.system.entity.Account" />
+    <mapping class="archive.system.entity.AccountList" />
+    <mapping class="archive.system.entity.Email" />
+    <mapping class="archive.system.entity.PhoneNumber" />
+  </session-factory>
+</hibernate-configuration>
